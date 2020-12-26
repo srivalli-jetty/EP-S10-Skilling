@@ -1,0 +1,52 @@
+
+<html>
+<head> 
+<style>
+h1{
+color:red;
+}
+</style>
+</head>
+<body> 
+<h1> REGISTRATION FORM</h1>
+</body>
+<body bgcolor="Lightskyblue"> 
+
+<form>
+<table align="center">
+<tr>
+<td><label> Name of the student</label></td>       
+<td><input type="text" name="name" size="15"/></td></tr>
+<tr>
+<td><label> Reg no: </label></td>   
+<td><input type="text" name="regno" size="15"/></td></tr>
+<tr>
+<td><label> Email ID: </label></td>      
+<td><input type="text" name="email" size="15"/></td></tr>
+<br>
+ 
+<tr>
+<td><label> Favourite game :</label></td>
+<td><input type="checkbox" name="c1"><label> Cricket</label></td><td><input type="checkbox" name="c2"><label>Football</label></td><td><input type="checkbox" name="c3"><label>Chess</label></td></tr>
+<br>
+<br>
+<tr>
+<td><label> Favourite subjects :</label></td> 
+<td><select>
+<option value="Course">Course</option>
+<option value="Java">Java</option>
+<option value="C">C</option>
+<option value="C++">C++</option>
+<option value="Python">Python</option>
+</select></td>
+</tr>
+<br>
+<br>
+<tr>
+<td><label> Gender :</label></td>
+<td><input type="radio" name="male"/> Male</td><td><input type="radio" name="female"/> Female</td>
+</tr>
+<br>
+<tr>
+<td><label> Address :</label></td>
+<td><textarea cols="50" rows="5" value="address">
