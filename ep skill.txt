@@ -1,4 +1,3 @@
-
 <html>
 <head> 
 <style>
@@ -23,8 +22,7 @@ color:red;
 <tr>
 <td><label> Email ID: </label></td>      
 <td><input type="text" name="email" size="15"/></td></tr>
-<br>
- 
+<br> 
 <tr>
 <td><label> Favourite game :</label></td>
 <td><input type="checkbox" name="c1"><label> Cricket</label></td><td><input type="checkbox" name="c2"><label>Football</label></td><td><input type="checkbox" name="c3"><label>Chess</label></td></tr>
